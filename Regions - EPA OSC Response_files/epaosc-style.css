@@ -1,0 +1,188 @@
+﻿
+/* FMM: These are the default Bootstrap settings for the body. Included in Bootsrap.css as well as TMinus1 custom.css
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  background-color: #ffffff;
+}
+*/
+
+/* FMM: Removed for NRT project. using Bootstrap.css as well as TMinus1 custom.css for style
+td, th, INPUT, SELECT, TEXTAREA, p
+{
+	font-size:10pt;
+	font-family:inherit;
+}
+
+span
+{
+	font-size: 10pt;
+	font-family: inherit;
+}
+*/
+
+.SmallFont
+{	
+	font-size:8pt;
+	font-family: inherit;
+}
+
+.SmallNormalFont
+{	
+	font-size:7pt;
+	font-family: inherit;
+}
+
+ .SmallBoldFont
+{	
+	font-size:8pt;
+	font-family: inherit;
+	font-weight: bold; 
+}
+
+.SmallColoredFont
+{	
+	font-size:7pt;
+	font-family: inherit;
+	color: #69923A;
+}
+
+ .SmallColoredBoldFont
+{	
+	font-size:7pt;
+	font-family: inherit;
+	font-weight: bold; 
+	color: #69923A;
+}
+
+.NormalFont, td.NormalFont
+{	
+	font-size: inherit;
+	font-family: inherit;
+}
+
+ .NormalBoldFont
+{	
+	font-size:inherit;
+	font-family: inherit;
+	font-weight: bold;
+}
+
+.NormalColoredFont
+{	
+	font-size: inherit;
+	font-family: inherit;
+	
+}
+
+ .NormalColoredBoldFont
+{
+	font-size: inherit;
+	font-family:  inherit;
+	font-weight: bold;
+	color: #69923A;
+}
+
+.NormalRedFont
+{
+	font-size: inherit;
+	font-family:  inherit;
+	color: #FF0000;
+}
+
+ .NormalRedBoldFont
+{
+	font-size: inherit;
+	font-family:  inherit;
+	font-weight: bold;
+	color: #FF0000;
+}
+
+
+.LargerNormalFont
+{	
+	font-size:13pt;
+	font-family: inherit;
+}
+
+ .LargerNormalBoldFont
+{	
+	font-size:13pt;
+	font-family: inherit;
+	font-weight: bold;
+}
+
+.LargerColoredFont
+{	
+	font-size:13pt;
+	font-family: inherit;
+	color: #69923A;
+}
+
+ .LargerColoredBoldFont
+{
+	font-size: 13pt;
+	font-family:inherit;
+	font-weight: bold;
+	color: #69923A;
+}
+
+
+
+ p12 {	
+   font-size:2;
+	font-family: inherit;
+	color:#000033;
+   }
+	
+PageHeadingTitles {	
+   font-size:3;
+	font-family: inherit;
+	font-style: italic;
+	font-weight: bold;
+	color:#000033;
+   }	
+
+.TableSolidBorder
+{
+	border: solid 1px #7f7f7f;
+	border-collapse: collapse;
+}
+
+.TrEditItemRow
+{
+    background-color: #dedfdf;
+} 
+.TrItemRow
+{
+    background-color: #f7f7f7;
+} 
+.TrAltItemRow
+{
+    background-color: #dedfdf;
+} 
+
+.ListViewGrid
+{
+	border-collapse: collapse;
+	border: solid 1px #7f7f7f;
+}
+
+.ListViewGrid .TrItemRow
+{
+    background-color: #f7f7f7;
+} 
+
+.ListViewGrid .TrAltItemRow
+{
+    background-color: #dedfdf;
+} 
+
+option.list_separater{color: Green;}
+
+.TrThemeRow
+{
+    background-color: #69923A;
+} 

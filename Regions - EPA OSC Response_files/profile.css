@@ -1,0 +1,296 @@
+h2 {
+	border-top: 1px solid #b3c3c2;
+	padding-top: 10px;
+}
+
+#site-logo img {
+	max-width: 100%;
+	margin-top: 10px;
+}
+
+#site-banner {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+h2 + #site-banner {
+	margin-top: -10px;
+}
+
+@media (max-width: 991px) {
+
+.col-md-5 #site-banner {
+	margin-top: -10px;
+}
+	
+}
+
+#site-links {
+	background: #69923a;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+h2 + #site-links {
+	margin-top: -11px;
+}
+
+#site-links a,
+#site-links a:visited {
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	vertical-align: top;
+	padding: 0 10px;
+	color: #fff;
+}
+
+#site-links a + a {
+	border-left: 1px solid #fff;
+}
+
+#site-contact {
+	border-bottom: 1px solid #b3c3c2;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+#site-contact + h4 {
+	padding-top: 0 !important;
+}
+
+#site-contact div {
+	max-width: 33.33%;
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	vertical-align: top;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#site-contact div + div {
+	padding-left: 30px;
+}
+
+#site-contact h4 {
+	padding: 0;
+	margin: 0;
+}
+
+#site-contact div a {
+	word-wrap: break-word;
+}
+
+#image-thumbs {
+	overflow: hidden;
+	padding: 2px !important;
+}
+
+#image-thumbs li {
+	margin: 0;
+	padding: 2px !important;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 33.33%;
+}
+
+#image-thumbs li a {
+	position: relative;
+	display: block;
+	width: 100%;
+	padding-top: 75%;
+	overflow: hidden;
+}
+
+#image-thumbs img {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#image-thumbs li.list-all {
+	float: none;
+	width: 100%;
+	clear: both;
+	padding: 5px 8px !important;
+}
+
+#image-thumbs li.list-all a {
+	display: inline;
+	width: auto;
+	padding: 0;
+}
+
+@media (min-width: 992px) {
+	
+#footer {
+	margin-top: 30px;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+#image-thumbs li {
+	width: 50%;
+}
+
+}
+
+@media (max-width: 767px) {
+
+#site-links {
+	padding: 5px 10px;
+}
+
+#site-links a {
+	padding: 5px 20px;
+}
+
+#site-links a + a {
+	border: none;
+}
+
+#site-contact div {
+	display: block;
+	max-width: 100%;
+}
+
+#site-contact div + div {
+	padding: 10px 0 0 0;
+}
+
+#image-thumbs li {
+	width: 50%;
+}
+
+}
+
+/* document table styles */
+
+#body-copy .table-responsive > .table {
+	min-width: 720px;
+}
+
+#body-copy .table-responsive > .table > thead > tr > th,
+#body-copy .table-responsive > .table > tbody > tr > th,
+#body-copy .table-responsive > .table > tfoot > tr > th,
+#body-copy .table-responsive > .table > thead > tr > td,
+#body-copy .table-responsive > .table > tbody > tr > td,
+#body-copy .table-responsive > .table > tfoot > tr > td {
+	white-space: normal;
+}
+
+#document-table-nav {
+	text-align: right;
+}
+
+#document-table-nav div {
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+#document-table-nav a,
+#document-table-nav span {
+	display: -moz-inline-stack;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	vertical-align: middle;
+	padding: 1px 7px;
+	border: 1px solid #d2dcdb;
+	margin-bottom: 5px;
+}
+
+#document-table-nav span {
+	border: none;
+	padding: 2px 8px;
+	margin-left: 5px;
+}
+
+#document-table-nav a + a,
+#document-table-nav span + a,
+#document-table-nav div + a {
+	margin-left: 5px;
+}
+
+#document-table-nav a:hover,
+#document-table-nav a:active {
+	background: #e9eeed;
+}
+
+#document-table th {
+	border-top: 1px solid #b3c3c2;
+	border-bottom: 1px solid #b3c3c2;
+}
+
+#document-table td {
+	border: 0;
+}
+
+#document-table tr td:first-child a {
+	font-weight: bold;
+}
+
+#document-table tr td:last-child {
+	white-space: nowrap !important;
+}
+
+@media (max-width: 767px) {
+
+#document-table-nav {
+	text-align: center;
+}
+	
+}
+
+
+/* FMM: Added bulletin-table style */
+#bulletin-table td {
+    border: 0;
+}
+
+#bulletin-table tr td:first-child a {
+    font-weight: bold;
+}
+
+
+/* FMM: Added link-table style */
+    #link-table td {
+        border: 0;
+    }
+
+    #link-table tr td:first-child a {
+        font-weight: bold;
+    }
+
+
+/* FMM: Added contact-table style */
+    #contact-table td {
+        border: 0;
+    }
+
+    #contact-table tr td:first-child a {
+        font-weight: bold;
+    }
+
+/* FMM: Added style: used in docs list to handle wrapping long filenames and descriptions with no white space. */
+td.breakword
+{
+    max-width: 250px;
+    word-wrap: break-word;
+}

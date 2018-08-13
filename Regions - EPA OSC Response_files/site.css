@@ -1,0 +1,134 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+
+/*
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+*/
+
+
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+/* FMM: commented out to work with custom input lengths */
+/*
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+*/
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}
+
+
+/* btn btn-primary style start */
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #69923A;
+  border-color: #69923A;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color:#D9E4CE;
+  border-color:#D9E4CE;
+}
+.btn-primary:hover {
+  color: #69923A;
+  background-color: #D9E4CE;
+  border-color: #D9E4CE;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color:#69923A;
+  border-color:#69923A;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #fff;
+  background-color: #69923A;
+  border-color:#69923A;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #69923A;
+  border-color: #69923A;
+}
+
+/* END btn btn-primary style start */
+
+
+/* Resource Section Style Starts 
+    FMM: Added for Resource Section to use instead of updates selector
+*/
+#resources .table td {
+	padding-left: 10px;
+	padding-top: 0;
+	padding-bottom: 10px;
+	border: 0;
+}
+
+#resources .table td+td {
+	padding-right: 0;
+}
+
+#resources {
+	border-left: 1px solid #b3c3c2;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    #resources {
+        border: none;
+    }
+}
+/* Resource Section Style Ends */
